@@ -1,10 +1,13 @@
 {
   "name": "md-html-tool-cli",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "main": "index.js",
   "repository": "https://github.com/jimliu7434/md-html-tool-cli",
   "author": "jimliu <jimliu7434@gmail.com>",
   "license": "MIT",
+  "bin": {
+    "md2htmlcli": "./index.js"
+  },
   "dependencies": {
     "colors": "^1.3.3",
     "commander": "^2.20.0",
